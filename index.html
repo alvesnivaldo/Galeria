@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Galeria de Arte - Nivaldo Alves</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; background:#f4f4f4;}
+    header {background:#222; color:white; padding:15px; text-align:center;}
+    nav {background:#444; padding:10px; text-align:center;}
+    nav a {color:white; margin:0 15px; text-decoration:none; font-weight:bold;}
+    section {padding:30px; max-width:1000px; margin:auto;}
+    .container {display:flex; flex-wrap:wrap; gap:20px; justify-content:center;}
+    .card {background:white; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); width:280px; overflow:hidden;}
+    .card img {width:100%; height:200px; object-fit:cover;}
+    .card-content {padding:15px;}
+    .price {font-weight:bold; margin-top:8px;}
+    footer {text-align:center; padding:20px; background:#222; color:white; margin-top:30px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Galeria de Arte</h1>
+  <p>Referências artísticas para pintura</p>
+</header>
+
+<nav>
+  <a href="#galeria">Galeria</a>
+  <a href="#termos">Termos de Uso</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="galeria">
+  <h2>Galeria</h2>
+  <div class="container">
+
+    <div class="card">
+      <img src="obra1.jpg" alt="Obra 1">
+      <div class="card-content">
+        <h3>Paisagem artística</h3>
+        <p>Referência para pintura.</p>
+        <div class="price">R$ 25</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="obra2.jpg" alt="Obra 2">
+      <div class="card-content">
+        <h3>Composição floral</h3>
+        <p>Referência para pintura.</p>
+        <div class="price">R$ 25</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="termos">
+  <h2>Termos de Uso</h2>
+  <p>Todas as imagens disponíveis nesta galeria são composições originais criadas por Nivaldo Alves e são disponibilizadas como referência artística para estudo e prática de pintura.</p>
+  <p>O comprador pode utilizar a imagem como referência para estudo e divulgar a pintura realizada, desde que não revendam ou distribuam a imagem digital original nem declarem autoria da composição original.</p>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Para comprar uma referência, entre em contato pelo WhatsApp:</p>
+  <p><strong>(coloque aqui seu número)</strong></p>
+</section>
+
+<footer>
+  <p>© 2026 - Nivaldo Alves</p>
+</footer>
+
+</body>
+</html>
